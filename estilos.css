@@ -1,0 +1,50 @@
+/*------------------------------------EJERCICIO 7 ESTILO A MAQUETA DE UNA PAGINA WEB------------------------------------------*/
+
+
+.Contenedor {
+    width: 80%;
+    max-width: 950px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+ul{
+    list-style-type: none;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: flex-start;  
+}
+
+li a{ 
+    display: flex;
+    color:blue;         
+    text-decoration: none; 
+    padding: 20px; 
+    margin-bottom: 0.5em;
+    font-size:1em;
+}
+
+a:hover{
+    color:black;
+}
+
+.articulo {
+    background-color: gray;
+    border:2px solid red;
+    padding-bottom: 20px;
+}
+
+.articulo h2 {
+    font-family: Verdana;
+    color:red;
+}
+
+.articulo p  {
+    color:white;
+}
